@@ -47,7 +47,7 @@ Ruby on Rails, Go, MySQL, Docker, gRPC
 - Ruby on Railsのマイクロサービスクライアントの開発
 - 専用のリグレッションテストツールの開発、及びそれを用いたテスト検証
 - Goを基盤としたマイクロサービスの開発
-- 開発環境基盤の開発・運用
+- Intel Mac/M1 Mac用のDocker on limaの開発環境基盤の開発・運用
 
 ### 株式会社スペースリー (2020/06 - 2021/09) - ソフトウェアエンジニア
 
@@ -124,6 +124,7 @@ Ruby on Rails, JavaScript, Vue.js, JQuery, MySQL, AWS(EC2, S3)
 ## その他の活動
 
 - 外科医療教育支援アプリケーションの開発
+  - Go, TypeScript, React, GraphQL, CockroachDB, Gitlab
   - 会社設立
   - 国際特許取得
 - ソフトウェアエンジニアへ転向するための学習
