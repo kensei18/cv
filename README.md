@@ -26,7 +26,7 @@ Github Actions / CircleCI / Gitlab CI
 
 Argolia
 
-日本語(ネイティブ) / 英語(ビジネス)
+日本語(ネイティブ) / 英語(B2)
 
 ## 職務経歴
 
@@ -36,7 +36,7 @@ Argolia
 
 ##### 概要
 
-Ruby on Railsアプリケーション『マネーフォワード クラウド会計』のマイクロサービス化プロジェクトにおいて、データ量の大きい仕訳情報に関するマイクロサービスの開発
+Ruby on Railsアプリケーション『マネーフォワード クラウド会計』のマイクロサービス化プロジェクトにおいて、データ量の大きい仕訳情報に関するマイクロサービスプロジェクトでの開発
 
 ##### 使用技術
 
@@ -45,9 +45,10 @@ Ruby on Rails, Go, MySQL, Docker, gRPC
 ##### 担当業務
 
 - Ruby on Railsのマイクロサービスクライアントの開発
-- 専用のリグレッションテストツールの開発、及びそれを用いたテスト検証
+- 専用のリグレッションテストツールの開発
+- マイクロサービスに切り替えるためのテスト設計・検証・実施
 - Goを基盤としたマイクロサービスの開発
-- Intel Mac/M1 Mac用のDocker on limaの開発環境基盤の開発・運用
+- Intel Mac/M1 Mac用のDocker on lima on Macの開発環境基盤の開発・運用
 
 ### 株式会社スペースリー (2020/06 - 2021/09) - ソフトウェアエンジニア
 
@@ -89,7 +90,7 @@ Ruby on Rails, JavaScript, Vue.js, JQuery, MySQL, AWS(EC2, S3)
 
 ### ソニー株式会社 (2018/04 - 2019/12) - 管理会計/財務会計
 
-#### 放送機器事業の経営管理
+#### 経営管理 - 放送機器事業
 
 ##### 概要
 
@@ -103,7 +104,7 @@ Ruby on Rails, JavaScript, Vue.js, JQuery, MySQL, AWS(EC2, S3)
 - 中期計画・年間バジェット作成
 - 各生産拠点・販売会社との取引価格調整
 
-#### スマートフォン事業の経理
+#### 経理 - スマートフォン事業
 
 ##### 概要
 
@@ -124,8 +125,8 @@ Ruby on Rails, JavaScript, Vue.js, JQuery, MySQL, AWS(EC2, S3)
 ## その他の活動
 
 - 外科医療教育支援アプリケーションの開発
-  - Go, TypeScript, React, GraphQL, CockroachDB, Gitlab
+  - Go, TypeScript, React, CockroachDB, GraphQL, GCP(Firebase/Cloud Run/Compute Engine), Gitlab
   - 会社設立
-  - 国際特許取得
-- ソフトウェアエンジニアへ転向するための学習
+  - 国際特許取得済
+- ソフトウェアエンジニアリングの基礎学習
   - 2020/01 - 2020/06
