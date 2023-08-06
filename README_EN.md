@@ -42,7 +42,7 @@ Github Actions / CircleCI / Gitlab CI
 
 ##### Others
 
-Argolia
+Terraform / Argolia
 
 ## Work History
 

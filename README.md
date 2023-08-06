@@ -28,7 +28,7 @@ gRPC (Protocol Buffers) / GraphQL
 
 Docker / lima
 
-##### クラウドプロバイダ
+##### クラウド
 
 AWS (EC2, S3, DocumentDB, CloudFront, ECR, ECS, Athena, SQS) / GCP (Firebase, Cloud Run, Cloud Build, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query)
 
@@ -42,7 +42,7 @@ Github Actions / CircleCI / Gitlab CI
 
 ##### その他
 
-Argolia
+Terraform / Argolia
 
 ## 職務経歴
 
