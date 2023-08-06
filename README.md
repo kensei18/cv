@@ -1,5 +1,7 @@
 # 職務経歴
 
+日本語 / [English](./README_EN.md)
+
 ### 坂井 賢世 (SAKAI, Kensei)
 
 Github: https://github.com/kensei18
@@ -109,7 +111,7 @@ Ruby on Rails / Vue.js / React で構成された VR 不動産物件管理アプ
 
 ##### 使用技術
 
-Ruby on Rails, JavaScript, Vue.js, JQuery, MySQL, AWS(EC2, S3)
+Ruby on Rails, JavaScript, Vue.js, jQuery, MySQL, AWS(EC2, S3)
 
 ##### 担当業務
 
@@ -155,7 +157,7 @@ Ruby on Rails, JavaScript, Vue.js, JQuery, MySQL, AWS(EC2, S3)
 ## その他の活動
 
 - 外科医療教育支援アプリケーションの開発
-  - Go, TypeScript, React, PostgreSQL, GraphQL, Docker, GCP(Firebase/Cloud Run/Cloud SQL/Cloud Build)
+  - Go, TypeScript, React, PostgreSQL, GraphQL, Docker, GCP(Firebase / Cloud Run / Cloud SQL / Cloud Build)
   - 会社設立
   - 国際特許取得済
 - ソフトウェアエンジニアリングの基礎学習
