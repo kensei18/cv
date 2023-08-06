@@ -6,25 +6,41 @@ Github: https://github.com/kensei18
 
 LinkedIn: https://www.linkedin.com/in/kensei-sakai/
 
+言語: 日本語(ネイティブ) / 英語(B2)
+
 ## スキルセット
 
-TypeScript(Node.js, React, Vue.js) / Ruby(Ruby on Rails) / Go / Python(FastAPI) / HTML / CSS
+##### 言語/フレームワーク
+
+TypeScript(Express.js, React, Vue.js) / Ruby(Ruby on Rails) / Go / Python(FastAPI) / HTML / CSS
+
+##### データベース
 
 MySQL / MongoDB / PostgreSQL
 
+##### インターフェース
+
 gRPC (Protocol Buffers) / GraphQL
 
-Docker
+##### 仮想化技術
 
-AWS(EC2, S3, DocumentDB, CloudFront, ECR, ECS, Athena, SQS) / GCP(Firebase, Cloud Run, Cloud Build, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query)
+Docker / lima
+
+##### クラウドプロバイダ
+
+AWS (EC2, S3, DocumentDB, CloudFront, ECR, ECS, Athena, SQS) / GCP (Firebase, Cloud Run, Cloud Build, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query)
+
+##### バージョン管理
 
 Github / Gitlab
 
+##### CI/CD
+
 Github Actions / CircleCI / Gitlab CI
 
-Argolia
+##### その他
 
-日本語(ネイティブ) / 英語(B2)
+Argolia
 
 ## 職務経歴
 
