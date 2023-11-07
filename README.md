@@ -1,38 +1,38 @@
-# 職務経歴
+# CV
 
-日本語 / [English](./README_EN.md)
+English / [Japanese](./README_JA.md)
 
-### 坂井 賢世 (SAKAI, Kensei)
+### SAKAI, Kensei
 
 Github: https://github.com/kensei18
 
 LinkedIn: https://www.linkedin.com/in/kensei-sakai/
 
-言語: 日本語(ネイティブ) / 英語(B2)
+Languages: Japanese (native) / English (B2)
 
-## スキルセット
+## Technologies
 
-##### 言語/フレームワーク
+##### Language / Framework
 
 TypeScript(Express.js, React, Vue.js) / Ruby(Ruby on Rails) / Go / Python(FastAPI) / HTML / CSS
 
-##### データベース
+##### Database
 
 MySQL / MongoDB / PostgreSQL
 
-##### インターフェース
+##### Network Interface
 
 gRPC (Protocol Buffers) / GraphQL
 
-##### 仮想化技術
+##### Virtualization Technology
 
 Docker / lima
 
-##### クラウド
+##### Cloud Provider
 
 AWS (EC2, S3, DocumentDB, CloudFront, ECR, ECS, Athena, SQS) / GCP (Firebase, Cloud Run, Cloud Build, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query)
 
-##### バージョン管理
+##### Version Management
 
 Github / Gitlab
 
@@ -40,125 +40,113 @@ Github / Gitlab
 
 Github Actions / CircleCI / Gitlab CI
 
-##### その他
+##### Others
 
 Terraform / Argolia
 
-## 職務経歴
+## Work History
 
-### 株式会社マネーフォワード (2021/09 - 現在) - ソフトウェアエンジニア
+### Money Forward, Inc. (2021.09 - Present) - Software Engineer
 
-#### Apollo Server + Next.js のファクタリングサービスの社内ユーザー用アプリケーションの開発
+#### Internal Application for Online Factoring Service with Apollo Server & Next.js
 
-##### 概要
+Develop an internal application for Biz Forward Inc., a subsidiary company that operates a bilateral online factoring business, to enable internal users to manage cases and payments.
 
-二社間ファクタリング事業を行う子会社の株式会社 BizForward で、社内ユーザーが案件や支払いを管理するための社内向けアプリケーションの開発
-
-##### 使用技術
+##### Technologies
 
 TypeScript(Node.js, Next.js), Go, GCP(Cloud Run, Firebase, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query), GraphQL(Apollo), Terraform, Docker, Sentry
 
-##### 担当業務
+##### Jobs
 
-- 新機能の要件定義・全体設計・テーブル設計・実装・リリース・インフラ構成・保守運用
-- 既存機能のリファクタリング及びテスト追加
-- サーバーのログ整備
+- Requirement definition, overall design, database design, implementation, release, infrastructure configuration, maintenance and operation of new features
+- Refactoring and additional testing for existing features
+- Maintenance of server logs
 
-#### Ruby on Rails の会計アプリケーションのマイクロサービス開発
+#### Microservices development for an accounting application built in Ruby on Rails
 
-##### 概要
+Microservices development project to decouple journal data from a monolithic accounting application built in Ruby on Rails
 
-Ruby on Rails アプリケーション『マネーフォワード クラウド会計』のマイクロサービス化プロジェクトにおいて、データ量の大きい仕訳情報に関するマイクロサービスプロジェクトでの開発
-
-##### 使用技術
+##### Technologies
 
 Ruby on Rails, Go, MySQL, Docker, gRPC
 
-##### 担当業務
+##### Jobs
 
-- Ruby on Rails のマイクロサービスクライアントの開発
-- 専用のリグレッションテストツールの開発
-- マイクロサービスに切り替えるためのテスト設計・検証・実施
-- Go を基盤としたマイクロサービスの開発
-- Intel Mac/M1 Mac 用の Docker on lima on Mac の開発環境基盤の開発・運用
+- Development of gRPC client to call microservices functions in Ruby on Rails
+- Development of dedicated regression testing tools
+- Implementation, test design, and testing for switching to microservices
+- Development of microservices with Golang
+- Development and operation of development environment infrastructure for Mac with Docker and lima
 
-### 株式会社スペースリー (2020/06 - 2021/09) - ソフトウェアエンジニア
+### Spacely, Inc. (2020.06 - 2021.09) - Software Engineer
 
-#### VR 空間での家具配置機能の開発
+#### Furniture placement features in VR spaces
 
-##### 概要
+Development of new features that allows users to freely coordinate rooms in VR spaces by automatically or manually placing furniture, appliances, etc. that are actually sold
 
-360° パノラマ VR 空間の中で、自動またはユーザーの手動により実際に販売されている家具や家電製品などを配置し、部屋のコーディネートを自由に行うことができる『AI 空間設計』の新規開発
-
-##### 使用技術
+##### Technologies
 
 Python, FastAPI, A-Frame, Vue.js, Ruby on Rails, MongoDB, MySQL, AWS(EC2, S3, DocumentDB, CloudFront, ECR, ECS, SQS), Github Actions, Docker, Algolia
 
-##### 担当業務
+##### Jobs
 
-- A-Frame + Vue.js での VR 空間/家具配置機能の設計・開発・運用
-- FastAPI + MongoDB の家具情報アプリケーションの設計・開発・運用
-- S3 に配置した 3D ファイルのアクセス制限の設計・実装
-- SQS を用いた画像処理アプリケーションとの非同期通信の実装・運用
-- FastAPI アプリケーションのパフォーマンス調査・対応
-- FastAPI + MongoDB アプリケーションの Algolia への機能・データの移管
+- Design, development, and operation of VR space and furniture placement features in A-Frame and Vue.js
+- Design, development, and operation of a furniture information backend service using FastAPI and MongoDB
+- Design and implementation of access control for 3D files placed in S3
+- Implementation and operation of asynchronous communication with image processing applications using SQS
+- Investigation and improvement of FastAPI application performance
+- Migration of features and data from FastAPI + MongoDB furniture information backend service to Algolia
 
-#### VR を用いた不動産物件管理サービスの設計・開発・保守・改修
+#### Real estate property management application with VR
 
-##### 概要
+Maintenance, modification and development of VR real estate property management application composed of Ruby on Rails, Vue.js and React
 
-Ruby on Rails / Vue.js / React で構成された VR 不動産物件管理アプリケーションの保守・改修・機能開発
-
-##### 使用技術
+##### Technologies
 
 Ruby on Rails, JavaScript, Vue.js, jQuery, MySQL, AWS(EC2, S3)
 
-##### 担当業務
+##### Jobs
 
-- Ruby on Rails アプリケーションのリファクタリング及びテスト追加
-- SPA 画面の React から Vue.js へのリプレイス開発
-- Ruby on Rails アプリケーションのパフォーマンス改善
-- 会社 HP の改修
+- Refactoring and adding tests to Ruby on Rails application
+- Replacement of frontend SPA from React to Vue.js
+- Performance improvement of Ruby on Rails application
+- Modification of Company HP
 
-### ソニー株式会社 (2018/04 - 2019/12) - 管理会計/財務会計
+### Sony Corporation (2018.04 - 2019.12) - Management and Financial Accounting
 
-#### 経営管理 - 放送機器事業
+#### Management Accounting - Broadcasting Equipment Business
 
-##### 概要
+Management accounting and supply chain management for four business categories in the Broadcast Equipment business
 
-放送機器事業の事業管理として、4 つのカテゴリーの管理会計・サプライチェーン管理を担当。事業単位で短期・中長期での会計情報を関係者・マネジメントに報告すると同時に、管理会計の視点から事業の方向性を決めるサポート業務
+##### Jobs
 
-##### 担当業務
+- Reporting monthly results and forecast PL
+- Forecasting product lifetime profit
+- Production and sales management
+- Mid-term plan and annual budget creation
+- Adjustment of transaction prices with each production site and sales company
 
-- 月次実績・フォーキャスト PL 作成
-- プロダクトの生涯利益予測作成
-- プロダクトの生産販売管理
-- 中期計画・年間バジェット作成
-- 各生産拠点・販売会社との取引価格調整
+#### Financial Accounting - Smartphone Business
 
-#### 経理 - スマートフォン事業
+Processing and management of receivables and payables of smartphone business
 
-##### 概要
+##### Jobs
 
-モバイル事業の経理として、債権債務の処理・管理
+- Processing of monthly financial statements
+- Computerization of invoices for overseas company-owned factories
 
-##### 担当業務
+## Education
 
-- 月次決算処理
-- 海外自社工場のインボイス電子化
+- Advanced Institute of Industrial Technology, Information Systems Architecture Course
+  - 2021.10 - (on leave)
+- The University of Tokyo, Faculty of Education, Division of Physical and Health Education
+  - 2012.04 - 2018.03
 
-## 学歴
+## Other Activities
 
-- 東京都立産業技術大学院大学 情報アーキテクチャコース
-  - 2021/10 - (休学中)
-- 東京大学 教育学部 総合教育科学科 身体教育学コース（理科一類）
-  - 2012/04 - 2018/03
-
-## その他の活動
-
-- 外科医療教育支援アプリケーションの開発
+- Development of surgical medical education support application
   - Go, TypeScript, React, PostgreSQL, GraphQL, Docker, GCP(Firebase / Cloud Run / Cloud SQL / Cloud Build)
-  - 会社設立
-  - 国際特許取得済
-- ソフトウェアエンジニアリングの基礎学習
-  - 2020/01 - 2020/06
+  - Established company
+  - Obtained international patents
+- Software Engineering Fundamentals
+  - 2020.01 - 2020.06
