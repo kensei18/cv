@@ -14,15 +14,15 @@ LinkedIn: https://www.linkedin.com/in/kensei-sakai/
 
 ##### 言語/フレームワーク
 
-TypeScript(Express.js, React, Vue.js) / Ruby(Ruby on Rails) / Go / Python(FastAPI) / HTML / CSS
+Go / TypeScript(Express.js, React, Vue.js) / Ruby(Ruby on Rails) / Python(FastAPI) / HTML / CSS
 
 ##### データベース
 
-MySQL / MongoDB / PostgreSQL
+MySQL / MongoDB / PostgreSQL / DynamoDB
 
 ##### インターフェース
 
-gRPC (Protocol Buffers) / GraphQL
+gRPC (Protocol Buffers) / GraphQL / REST
 
 ##### 仮想化技術
 
@@ -30,7 +30,7 @@ Docker / lima
 
 ##### クラウド
 
-AWS (EC2, S3, DocumentDB, CloudFront, ECR, ECS, Athena, SQS) / GCP (Firebase, Cloud Run, Cloud Build, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query)
+AWS (EC2, S3, DocumentDB, CloudFront, ECR, ECS, Athena, SQS, Lambda, DynamoDB, Route53, CloudFormation, CloudWatchLogs, API Gateway, StepFunctions) / GCP (Firebase, Cloud Run, Cloud Build, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query)
 
 ##### バージョン管理
 
@@ -42,11 +42,71 @@ Github Actions / CircleCI / Gitlab CI
 
 ##### その他
 
-Terraform / Argolia
+Terraform / Algolia / Datadog / Ory (Kratos, Hydra, Oathkeeper)
 
 ## 職務経歴
 
-### 株式会社マネーフォワード (2021/09 - 現在) - ソフトウェアエンジニア
+### 株式会社ティアフォー (TIER IV, Inc.) (2023/12 - 現在) - ソフトウェアエンジニア
+
+株式会社ティアフォーは、「自動運転の民主化」を目指す日本発のディープテックスタートアップである。オープンソースの自動運転ソフトウェア「Autoware」を開発・公開し、自動運転システムの開発・構築を加速させる「Web.Auto」を提供している。
+
+Authチームのメンバーとして、Web.Auto全体で使用される基盤系のマイクロサービスの開発に従事。具体的には、認証・認可の基盤に加え、契約・利用量計測・通知の基盤の開発と運用を担当。
+
+#### Web.Autoアプリケーションの利用量計測マイクロサービスの新規開発
+
+##### 概要
+
+ティアフォーの自動運転支援システム「Web.Auto」で提供される各アプリケーションの顧客の利用量を計測するマイクロサービスの新規開発
+
+##### 使用技術
+
+Go, Python, TypeScript, AWS (Lambda, DynamoDB, ECS, Route53, SQS, CloudFormation, CloudWatchLogs, API Gateway), Datadog
+
+##### 担当業務
+
+- ドメイン設計
+- マイクロサービスの実装
+- 開発チームのリード
+- マイクロサービスを利用する他チームとのコミュニケーションのリード
+
+#### Web.Autoアプリケーションの通知マイクロサービスの新規開発
+
+##### 概要
+
+Web.Autoで提供される各アプリケーションがさまざまなチャネルを通じて顧客に通知を送信できる通知マイクロサービスの新規開発
+
+##### 使用技術
+
+Go, AWS (Lambda, DynamoDB, Route53, SQS, CloudFormation, CloudWatchLogs, API Gateway, StepFunctions), Datadog
+
+##### 担当業務
+
+- 非機能要件定義
+- システム設計
+- ドメイン設計
+- マイクロサービスの実装
+- 開発チームのリード
+- マイクロサービスを利用する他チームとのコミュニケーションのリード
+- リリース
+- 保守運用
+
+#### Web.Autoの認証基盤・認可基盤・契約基盤の各マイクロサービスの運用
+
+##### 概要
+
+Web.Autoで利用される認証基盤・認可基盤・契約基盤の各マイクロサービスの運用
+
+##### 使用技術
+
+Go, PostgreSQL, AWS (Lambda, DynamoDB, ECS, Route53, SQS, CloudFormation, CloudWatchLogs, API Gateway), Ory (Kratos, Hydra, Oathkeeper)
+
+##### 担当業務
+
+- モニタリング、オンコール対応
+- 他チームからの認証・認可・契約に関する問い合わせ・相談の対応
+- 機能追加、パフォーマンス改善
+
+### 株式会社マネーフォワード (2021/09 - 2023/11) - ソフトウェアエンジニア
 
 #### Apollo Server + Next.js のファクタリングサービスの社内ユーザー用アプリケーションの開発
 
@@ -149,8 +209,6 @@ Ruby on Rails, JavaScript, Vue.js, jQuery, MySQL, AWS(EC2, S3)
 
 ## 学歴
 
-- 東京都立産業技術大学院大学 情報アーキテクチャコース
-  - 2021/10 - (休学中)
 - 東京大学 教育学部 総合教育科学科 身体教育学コース（理科一類）
   - 2012/04 - 2018/03
 
