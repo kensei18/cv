@@ -30,7 +30,7 @@ Docker / lima
 
 ##### クラウド
 
-AWS (EC2, S3, DocumentDB, CloudFront, ECR, ECS, Athena, SQS, Lambda, DynamoDB, Route53, CloudFormation, CloudWatchLogs, API Gateway, StepFunctions) / GCP (Firebase, Cloud Run, Cloud Build, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query)
+AWS (EC2, S3, DocumentDB, CloudFront, ECR, ECS, Athena, SQS, SES, Lambda, DynamoDB, Route53, CloudFormation, CloudWatchLogs, API Gateway, StepFunctions) / GCP (Firebase, Cloud Run, Cloud Build, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query)
 
 ##### バージョン管理
 
@@ -52,6 +52,23 @@ Terraform / Algolia / Datadog / Ory (Kratos, Hydra, Oathkeeper)
 
 Authチームのメンバーとして、Web.Auto全体で使用される基盤系のマイクロサービスの開発に従事。具体的には、認証・認可の基盤に加え、契約・利用量計測・通知の基盤の開発と運用を担当。
 
+#### Web.Autoの認可基盤のパフォーマンス改善
+
+##### 概要
+
+Web.Auto が将来的に大規模にスケールしても耐えうる認可機構の実現のために、トークン払い出しの仕組みの見直しとパフォーマンス改善を実施
+
+##### 使用技術
+
+Go, Python, TypeScript, k6, Datadog
+
+##### 担当業務
+
+- 要件定義
+- ボトルネックの特定
+- パフォーマンス改善案の検討・実施
+- パフォーマンス改善の効果測定
+
 #### Web.Autoアプリケーションの利用量計測マイクロサービスの新規開発
 
 ##### 概要
@@ -60,7 +77,7 @@ Authチームのメンバーとして、Web.Auto全体で使用される基盤�
 
 ##### 使用技術
 
-Go, Python, TypeScript, AWS (Lambda, DynamoDB, ECS, Route53, SQS, CloudFormation, CloudWatchLogs, API Gateway), Datadog
+Go, Python, TypeScript, AWS (Lambda, DynamoDB, ECS, Route53, SQS, SES, CloudFormation, CloudWatchLogs, API Gateway), Datadog, Slack API
 
 ##### 担当業務
 

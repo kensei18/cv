@@ -30,7 +30,7 @@ Docker / lima
 
 ##### Cloud Provider
 
-AWS (EC2, S3, DocumentDB, CloudFront, ECR, ECS, Athena, SQS, Lambda, DynamoDB, Route53, CloudFormation, CloudWatchLogs, API Gateway, StepFunctions) / GCP (Firebase, Cloud Run, Cloud Build, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query)
+AWS (EC2, S3, DocumentDB, CloudFront, ECR, ECS, Athena, SQS, SES, Lambda, DynamoDB, Route53, CloudFormation, CloudWatchLogs, API Gateway, StepFunctions) / GCP (Firebase, Cloud Run, Cloud Build, CloudSQL, Cloud Storage, Cloud PubSub, Cloud Logging, Big Query)
 
 ##### Version Management
 
@@ -52,13 +52,28 @@ TIER IV is a Japanese startup developing autonomous driving systems and is known
 
 As a member of the Auth team, I am responsible for developing foundational microservices used across Web.Auto, including authentication, authorization, contract management, usage measurement, and notification systems.
 
+#### Performance Improvement of Web.Auto's Authorization Infrastructure
+
+To achieve an authorization mechanism that can withstand large-scale scaling of Web.Auto in the future, I reviewed the token issuance mechanism and implemented performance improvements.
+
+##### Technologies
+
+Go, Python, TypeScript, k6, Datadog
+
+##### Responsibilities
+
+- Requirement definition
+- Bottleneck identification
+- Consideration and implementation of performance improvement measures
+- Measurement of performance improvement effects
+
 #### Development of Usage Measurement Microservice for Web.Auto Applications
 
 Developed a new microservice to measure customer usage of various applications provided by Web.Auto, TIER IV's autonomous driving support system.
 
 ##### Technologies
 
-Go, Python, TypeScript, AWS (Lambda, DynamoDB, ECS, Route53, SQS, CloudFormation, CloudWatchLogs, API Gateway), Datadog
+Go, Python, TypeScript, AWS (Lambda, DynamoDB, ECS, Route53, SQS, SES, CloudFormation, CloudWatchLogs, API Gateway), Datadog, Slack API
 
 ##### Responsibilities
 
